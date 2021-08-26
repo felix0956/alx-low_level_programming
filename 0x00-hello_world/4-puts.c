@@ -1,6 +1,5 @@
 #include <stdio.h>
-/* print a string */
-int main(void)
+int main(void)/* print a string */
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
