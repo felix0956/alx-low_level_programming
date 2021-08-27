@@ -1,0 +1,1 @@
+0-positive_or_negative.c:check random number to know if its negative,positive or zero
