@@ -9,6 +9,7 @@ int main(void)
 {
 int x;
 x = 97;
-while(x <= 122)
+while (x <= 122)
 putchar(x);
+return (0);
 }
