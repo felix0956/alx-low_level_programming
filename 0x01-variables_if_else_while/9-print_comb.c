@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-  int i;
-  for (i = 0; i < 10; i++)
-    putchar(i','+'0');
-  return 0;
+int i;
+for (i = 0; i < 10; i++)
+putchar(i + '0');
+if (i < 10)
+putchar(', ');
+return (0);
 }
