@@ -7,10 +7,8 @@
  */
 int main(void)
 {
-int x;
-x = 'a';
-while (x <= 'z')
-putchar(x);
-x++;
+char c;
+for (c = 'a'; c <= 'z'; ++c)
+putchar(c);
 return (0);
 }
