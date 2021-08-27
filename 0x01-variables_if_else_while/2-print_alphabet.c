@@ -8,8 +8,9 @@
 int main(void)
 {
 int x;
-x = 97;
-while (x <= 122)
+x = 'a';
+while (x <= 'z')
 putchar(x);
+x++
 return (0);
 }
