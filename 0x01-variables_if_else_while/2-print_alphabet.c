@@ -11,6 +11,6 @@ int x;
 x = 'a';
 while (x <= 'z')
 putchar(x);
-x++
+x++;
 return (0);
 }
