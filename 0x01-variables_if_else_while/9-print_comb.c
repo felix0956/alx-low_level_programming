@@ -3,16 +3,22 @@
 /**
  * main - Entry point
  *
+ *prints numbers using loop
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-for (i = 0; i < 10; i++)
+int num;
+
+for (num = 0; num <= 9; num++)
 {
-putchar(i + '0');
-if (i < 10)
-putchar(', ');
+putchar(num % 10 + '0');
+if (num != 9)
+{
+putchar(',');
+putchar(' ');
 }
+}
+putchar('\n');
 return (0);
 }
