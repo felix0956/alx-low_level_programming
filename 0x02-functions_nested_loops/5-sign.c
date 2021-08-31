@@ -20,6 +20,6 @@ return (0);
 else
 {
 _putchar(45);
-return (0);
+return (-1);
 }
 }
