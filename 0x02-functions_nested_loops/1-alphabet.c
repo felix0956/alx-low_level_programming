@@ -1,8 +1,9 @@
-#include "main.h" 
+#include "holberton.h"
+#include "main.h"
 /**
- * main - check the code for ALX School students.
+ * print_alphabet - check the code for ALX School students.
  *
- * Return: Always 0.
+ * Return: Always void.
  */
 void print_alphabet(void)
 {
