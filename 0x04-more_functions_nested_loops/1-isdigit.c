@@ -1,5 +1,14 @@
+#include "main.h"
+
 /**
- * _isupper - check the code
+ * _isdigit - check the code
  * @c: function parameter
  * Return: Always 0.
  */
+int _isdigit(int c)
+{
+if (c == '0' && c <= '9')
+return (1);
+else
+return (0);
+}
