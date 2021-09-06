@@ -13,7 +13,7 @@ l = strlen(str);
 length = l - 1;
 for (i = 0; i <= length; i++)
 {
-if (i <= (length/2))
+if (i <= (length / 2))
 {
 continue;
 }
