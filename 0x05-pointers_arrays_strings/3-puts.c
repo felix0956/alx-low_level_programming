@@ -4,8 +4,8 @@
 
 /**
  * _puts - check the code
- *
- * Return: Always 0.
+ *@str:func parameter
+ * Return: Always void.
  */
 void _puts(char *str)
 {
