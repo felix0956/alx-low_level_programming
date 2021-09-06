@@ -1,21 +1,37 @@
 #include "main.h"
-#include <string.h>
+
+int _strlen(char *str);
 /**
  *print_rev  - check the code
  *@s: func parameter
- * Return: Always 0.
  */
 void print_rev(char *s)
 {
-char tmp;
-int l, length, i;
-l = strlen(s);
-length = l - 1;
-for (i = 0; i < length; i++)
+int length = _strlen(s);
+
+for (; length >= 0; lenth--)
 {
-tmp = s[i];
-s[i] = s[length];
-s[length] = tmp;
-length--;
+if (*(s + length) == '\0')
+length -= 1;
+if (*(s + length == '\0' && *(s + (length + 1)) == '\0')
+break;
+_putchar(*(s + length));
 }
+_putchar(10);
+}
+
+/**
+ * _strlen - writes the character c to stdout
+ * @str: The character to print
+ * Return: alway return length counted
+ */
+int _strlen(char *str)
+{
+int count = 0;
+while (*str != '\0')
+{
+count++;
+str++;
+}
+return (count);
 }
