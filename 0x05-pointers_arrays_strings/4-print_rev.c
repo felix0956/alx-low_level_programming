@@ -11,9 +11,9 @@ int i, l;
 l = strlen(s);
 for (i = l; i >= 0; i--)
 {
+if (s[i] == '\0')
+continue;
 _putchar(s[i]);
 }
 _putchar('\n');
 }
-
-
